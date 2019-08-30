@@ -102,6 +102,7 @@ class ChartWeb extends Component {
           domStorageEnabled={true}
           scalesPageToFit={true}
           scrollEnabled={false}
+          useWebKit={false}
           automaticallyAdjustContentInsets={true}
           {...this.props}
         />
