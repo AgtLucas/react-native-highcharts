@@ -100,9 +100,7 @@ class ChartWeb extends Component {
           source={{ html: concatHTML, baseUrl: "web/" }}
           javaScriptEnabled={true}
           domStorageEnabled={true}
-          scalesPageToFit={true}
           scrollEnabled={false}
-          useWebKit={false}
           automaticallyAdjustContentInsets={true}
           {...this.props}
         />
